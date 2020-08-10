@@ -1,0 +1,6 @@
+.border {
+  height: 100vh;
+  float: left;
+  shape-outside: url('./img/fall.svg');
+  clip-path: url('./img/fall.svg');
+}
