@@ -14,3 +14,59 @@ body {
 }
 
 section { float: left; }
+
+.ingrediants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ingrediants svg {
+  width: 14rem;
+  margin: 1rem 2rem;
+}
+
+.pumpkin-1, .pumpkin-2 { fill: #e69c81; }
+.pumpkin-2 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.pumpkin-3,
+.pumpkin-4 {
+  font-size: 62.1px;
+  font-family: Rochester-Regular, Rochester;
+}
+.pumpkin-3 { fill: #d65a2d; }
+.pumpkin-4 { fill: #fff; }
+
+
+.potatoes-1 { fill: #b47a65; }
+.potatoes-2, .potatoes-6 { fill: #c09e66; }
+.potatoes-3 { fill: #fed491; }
+.potatoes-4,
+.potatoes-5 {
+  fill: none;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+.potatoes-4 { stroke: #875c4c; }
+.potatoes-5 { stroke: #90774d; }
+.potatoes-6,
+.potatoes-7 {
+  font-size: 62.1px;
+  font-family: Rochester-Regular, Rochester;
+}
+.potatoes-7 { fill: #875c4c; }
+
+
+.sweet-potato-1, .sweet-potato-4 { fill: #c6946b; }
+.sweet-potato-2 { fill: #f7931e; }
+.sweet-potato-3 { fill: #a67c52; }
+.sweet-potato-4,
+.sweet-potato-5 {
+  font-size: 62.1px;
+  font-family: Rochester-Regular, Rochester;
+}
+.sweet-potato-5 { fill: #fff1dd; }
