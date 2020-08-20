@@ -41,6 +41,9 @@ ul.ingredients li {
 ul.ingredients svg {
   vertical-align: middle;
 }
+ul.ingredients a {
+  font-size: 1.5rem;
+}
 
 footer {
   margin-top: 5rem;
