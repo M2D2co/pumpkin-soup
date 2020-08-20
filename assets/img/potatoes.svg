@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 323.72 86.72"><defs><style>.potatoes-1{fill:#b47a65;}.potatoes-2,.cls-6{fill:#c09e66;}.cls-3{fill:#fed491;}.cls-4,.cls-5{fill:none;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}.cls-4{stroke:#875c4c;}.cls-5{stroke:#90774d;}.cls-6,.cls-7{font-size:62.1px;font-family:Rochester-Regular, Rochester;}.cls-7{fill:#875c4c;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="potatoes-1" d="M22,8.88C6,14.68,4.1,16.53,2.85,18.43c-6.26,9.47-1.68,26.86,8.59,35.33s23.41,5.65,49.66,0C80.54,49.58,83.77,45.15,85,42.3c3.14-7.38-2.16-16.1-5.73-22-3-4.87-10.41-17.1-23.88-20.06C49.4-1,40.17,2.26,22,8.88Z"/><path class="potatoes-2" d="M72.37,6.56C55.91,8.68,53.72,10.07,52.1,11.64,44,19.49,44.41,37.44,52.24,48s20.91,10.68,47.08,11c19.38.22,23.44-3.39,25.24-5.89,4.65-6.5,1.6-16.17-.46-22.66-1.7-5.4-6-19-18.08-24.8C100.65,3,91.15,4.13,72.37,6.56Z"/><path class="cls-3" d="M79.88,21.31c17.87,1.26,20.26,2.55,22.05,4.06,8.88,7.51,8.76,25.72.46,36.8s-22.47,12-50.82,13.67c-21,1.27-25.45-2.16-27.43-4.61-5.15-6.33-2-16.29.1-23C26,42.68,30.41,28.71,43.42,22.13,49.19,19.21,59.5,19.87,79.88,21.31Z"/><path class="cls-4" d="M7.48,35.65a14.33,14.33,0,0,1,8.88-18.21"/><path class="cls-5" d="M93.22,13.22a14.32,14.32,0,0,1,18.22,8.86"/><text class="cls-6" transform="translate(144.33 70.71)">Potatoes</text><text class="cls-7" transform="translate(41.83 70.7)">3</text></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+	<style type="text/css">
+		.potato-0{fill:#B47A65;}
+		.potato-1{fill:#C09E66;}
+		.potato-2{fill:#FED491;}
+		.potato-3{fill:none;stroke:#875C4C;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+		.potato-4{fill:none;stroke:#90774D;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	</style>
+	<path class="potato-0" d="M34.2,46.3c-15.7,5.7-17.6,7.5-18.8,9.4c-6.2,9.3-1.7,26.4,8.5,34.8s23,5.6,48.9,0c19.1-4.1,22.3-8.5,23.5-11.3c3.1-7.3-2.1-15.8-5.6-21.7c-3-4.8-10.2-16.8-23.5-19.7C61.1,36.6,52,39.8,34.2,46.3z"/>
+	<path class="potato-1" d="M83.7,44c-16.2,2.1-18.4,3.5-20,5c-8,7.7-7.6,25.4,0.1,35.8s20.6,10.5,46.3,10.8c19.1,0.2,23.1-3.3,24.8-5.8c4.6-6.4,1.6-15.9-0.5-22.3c-1.7-5.3-5.9-18.7-17.8-24.4C111.6,40.5,102.2,41.6,83.7,44z"/>
+	<path class="potato-2" d="M91.1,58.5c17.6,1.2,19.9,2.5,21.7,4c8.7,7.4,8.6,25.3,0.5,36.2s-22.1,11.8-50,13.5c-20.7,1.2-25-2.1-27-4.5c-5.1-6.2-2-16,0.1-22.6c1.7-5.5,6.1-19.2,18.9-25.7C60.9,56.5,71.1,57.1,91.1,58.5z"/>
+	<path class="potato-3" d="M19.9,72.6c-2.5-7.4,1.4-15.4,8.7-17.9"/>
+	<path class="potato-4" d="M104.3,50.6c7.4-2.5,15.4,1.4,17.9,8.7c0,0,0,0,0,0"/>
+</svg>

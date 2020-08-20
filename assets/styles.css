@@ -2,71 +2,137 @@ body {
   padding: 0 1.5rem;
   margin: 0;
   display: flow-root;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  font-variant: small-caps;
+  color: chocolate;
+  font-weight: lighter;
+  letter-spacing: .1ch;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+  text-underline-position: below;
+}
+
+svg { overflow: visible; }
 
 .border {
   display: block;
   height: 100vh;
   float: left;
-  shape-outside: url('https://raw.githubusercontent.com/M2D2co/pumpkin-soup/3a43e11a39fccd0c7e2fbb5815cd20a8827e9b14/assets/img/fall.svg');
-  clip-path: url('https://raw.githubusercontent.com/M2D2co/pumpkin-soup/3a43e11a39fccd0c7e2fbb5815cd20a8827e9b14/assets/img/fall.svg');
+  shape-outside: url('https://raw.githubusercontent.com/M2D2co/pumpkin-soup/latest/assets/img/fall.svg');
+  clip-path: url('./assets/img/fall.svg');
   shape-margin: 2ch;
 }
 
 section { float: left; }
+ul.ingredients {
+  padding: 0;
+  text-align: center;
+}
+ul.ingredients li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2ex 4ch;
+}
+ul.ingredients svg {
+  vertical-align: middle;
+}
 
-.ingrediants {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+/* Ingredients */
+.broth-0{fill:#D8EBEC;}
+.broth-1{fill:#999999;}
+.broth-2{fill:#D8CAA3;}
+@keyframes tip-broth {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(45deg); }
+  100% { transform: rotate(0deg); }
 }
-.ingrediants svg {
-  width: 14rem;
-  margin: 1rem 2rem;
+a:hover svg.broth, a:focus svg.broth { animation: tip-broth 1s ease-in-out 1 }
+
+.carrot-0{fill:#B96E16;}
+.carrot-1{fill:#C6D199;}
+.carrot-2{fill:#F7931E;}
+.carrot-3{fill:#F9A94B;}
+.carrot-4{fill:none;stroke:#F7931E;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+@keyframes back-carrot {
+  0% { fill: #B96E16; }
+  50% { fill: hsl(32, 79%, 61%); }
+  100% { fill: #B96E16; }
+ }
+ @keyframes middle-carrot {
+  0% { fill: #F7931E; }
+  50% { fill: hsl(32, 93%, 74%); }
+  100% { fill: #F7931E; }
+ }
+ @keyframes front-carrot {
+  0% { fill: #F9A94B; }
+  50% { fill: hsl(32, 94%, 84%); }
+  100% { fill: #F9A94B; }
+ }
+a:hover path.carrot-0, a:focus path.carrot-0 { animation: back-carrot 1s ease-in-out 1; animation-delay: 500ms;  }
+a:hover path.carrot-2, a:focus path.carrot-2 { animation: middle-carrot 1s ease-in-out 1; animation-delay: 250ms;  }
+a:hover path.carrot-3, a:focus path.carrot-3 { animation: front-carrot 1s ease-in-out 1;  }
+
+.potato-0{fill:#B47A65;}
+.potato-1{fill:#C09E66;}
+.potato-2{fill:#FED491;}
+.potato-3{fill:none;stroke:#875C4C;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+.potato-4{fill:none;stroke:#90774D;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+@keyframes scale-potato {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+a:hover .potato-2 { animation: scale-potato 1s ease-in-out 1; }
+a:hover .potato-1, a:hover .potato-4, a:focus .potato-1, a:focus .potato-4 {
+  animation: scale-potato 1s ease-in-out 1; animation-delay: 250ms;
+}
+a:hover .potato-0, a:hover .potato-3, a:focus .potato-0, a:focus .potato-3 {
+  animation: scale-potato 1s ease-in-out 1; animation-delay: 500ms; 
 }
 
-.pumpkin-1, .pumpkin-2 { fill: #e69c81; }
-.pumpkin-2 {
-  stroke: #fff;
-  stroke-miterlimit: 10;
-  stroke-width: 2px;
-}
-.pumpkin-3,
-.pumpkin-4 {
-  font-size: 62.1px;
-  font-family: Rochester-Regular, Rochester;
-}
-.pumpkin-3 { fill: #d65a2d; }
-.pumpkin-4 { fill: #fff; }
+.pumpkin-0{fill:#E69C81;}
+.pumpkin-1{fill:#E69C81;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;transition:250ms;}
+a:hover .pumpkin-1, a:focus .pumpkin-1 { stroke-width: 5; }
 
-
-.potatoes-1 { fill: #b47a65; }
-.potatoes-2, .potatoes-6 { fill: #c09e66; }
-.potatoes-3 { fill: #fed491; }
-.potatoes-4,
-.potatoes-5 {
-  fill: none;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  stroke-width: 4px;
+.salt-pepper-0{fill:#FDBB53;}
+.salt-pepper-1{fill:#BBBDBF;}
+.salt-pepper-2{opacity:0.37;fill:#3C989E;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;enable-background:new    ;}
+.salt-pepper-3{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+.salt-pepper-4{fill:#E6E7E8;}
+.salt-pepper-5{fill:#808184;}
+.salt-pepper-6{fill:#FFFFFF;}
+@keyframes tilt-salt {
+  0% { transform: rotate(0deg); }
+  40% { transform: rotate(180deg); }
+  90% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
 }
-.potatoes-4 { stroke: #875c4c; }
-.potatoes-5 { stroke: #90774d; }
-.potatoes-6,
-.potatoes-7 {
-  font-size: 62.1px;
-  font-family: Rochester-Regular, Rochester;
+@keyframes tilt-pepper {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-180deg); }
+  90% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
 }
-.potatoes-7 { fill: #875c4c; }
+.salt-pepper g { transform-origin: 50% 50%; }
+a:hover .salt, a:focus .salt { animation: tilt-salt 1.5s 1 ease-in-out; }
+a:hover .pepper, a:focus .pepper { animation: tilt-pepper 1.5s 1 ease-in-out; }
 
-
-.sweet-potato-1, .sweet-potato-4 { fill: #c6946b; }
-.sweet-potato-2 { fill: #f7931e; }
-.sweet-potato-3 { fill: #a67c52; }
-.sweet-potato-4,
-.sweet-potato-5 {
-  font-size: 62.1px;
-  font-family: Rochester-Regular, Rochester;
+.sweet-potato-0{fill:#C6946B;}
+.sweet-potato-1{fill:#F7931E;}
+.sweet-potato-2{fill:#A67C52;}
+/* Starting point for bounce animation taken from: https://css-tricks.com/making-css-animations-feel-natural/ */
+@keyframes bounce-sweet-potato-slice {
+  0%   { transform: scale(1,1)      translateY(0); }
+  20%  { transform: scale(1.1,.9)   translateY(0); }
+  40%  { transform: scale(.9,1.1)   translateY(-30px) translateX(200px) rotate(90deg); }
+  60%  { transform: scale(1.05,.95) translateY(0); }
+  80%  { transform: scale(1,1)      translateY(0) rotate(-10deg); }
+  100% { transform: scale(1,1)      translateY(0); }
 }
-.sweet-potato-5 { fill: #fff1dd; }
+a:hover .slice, a:focus .slice { animation: bounce-sweet-potato-slice 1s 1 }
+a:hover .slice.bottom, a:focus .slice.bottom { animation-delay: 250ms; }
