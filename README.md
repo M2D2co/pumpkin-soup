@@ -6,4 +6,5 @@ In this talk we will go over what the SVG code looks like, what it means, and ho
 
 ## Links
 
+- Demo: https://m2d2co.github.io/pumpkin-soup/
 - Slides: https://martine-dowden.github.io/portfolio/presentation/sprinkle-vast-greatness
